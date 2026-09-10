@@ -58,7 +58,7 @@ let package = Package(
             description:
                 "Enables the MLXLanguageModel adapter for Apple's FoundationModels framework. Disabling removes the MLXLanguageModel / MLXLanguageModel.Executor types."
         ),
-        .default(enabledTraits: ["FoundationModelsIntegration"]),
+        .default(enabledTraits: []),
     ],
     dependencies: [
         .package(url: "https://github.com/ml-explore/mlx-swift", .upToNextMinor(from: "0.31.6")),
